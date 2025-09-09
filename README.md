@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Amitesh Vashishth</h1>
-<h3 align="center">A passionate Java Developer from India</h3>
+<h3 align="center">A passionate QA Automation Engineer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=amiteshvsth&label=Profile%20views&color=0e75b6&style=flat" alt="amiteshvsth" /> </p>
 
@@ -7,15 +7,13 @@
 
 <p align="left"> <a href="https://twitter.com/amiteshrawall" target="blank"><img src="https://img.shields.io/twitter/follow/amiteshrawall?logo=twitter&style=for-the-badge" alt="amiteshrawall" /></a> </p>
 
-- 🔭 I’m currently working on [Java Projects](https://github.com/amiteshvsth/Java-Chatting-App)
+- 🔭 I’m currently working on [QA Automation Tools](https://github.com/amiteshvsth/Java-Chatting-App)
 
-- 🌱 I’m currently learning **Data Structures and Algorithms**
-
-- 👯 I’m looking to collaborate on [Chatting Application](https://github.com/amiteshvsth/Java-Chatting-App)
+- 🌱 I’m currently learning **Jenkins**
 
 - 👨‍💻 All of my projects are available at [https://amiteshvsth.github.io/My-Portfolio/](https://amiteshvsth.github.io/My-Portfolio/)
 
-- 💬 Ask me about **C++, Java**
+- 💬 Ask me about **C#, Selenium**
 
 - 📫 How to reach me **amiteshvashishth@gmail.com**
 
