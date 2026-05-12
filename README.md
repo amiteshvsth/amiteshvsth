@@ -1,37 +1,35 @@
 <h1 align="center">Hi 👋, I'm Amitesh Vashishth</h1>
 
 <h3 align="center">
-QA Automation Engineer | API Testing | Selenium | Java | Test Framework Development
+QA Automation Engineer | API Testing | Selenium | REST Assured | Java
 </h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=amiteshvsth&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=amiteshvsth&theme=darkhub&no-frame=true&margin-w=15" alt="trophies" />
-  </a>
+<img src="https://github-profile-trophy.vercel.app/?username=amiteshvsth&theme=tokyonight&no-frame=true&margin-w=10&row=1&column=4&title=Commits,Repositories,Experience,PullRequest"/>
 </p>
 
 ---
 
-## 🚀 About Me
+<p align="left">
+<img src="https://img.shields.io/badge/API_Testing-REST_Assured-blue?style=for-the-badge"/>
+  <br>
+<img src="https://img.shields.io/badge/UI_Testing-Selenium-green?style=for-the-badge"/>
+    <br>
+<img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge"/>
+    <br>
+<img src="https://img.shields.io/badge/Framework-TestNG-red?style=for-the-badge"/>
+    <br>
+<img src="https://img.shields.io/badge/CI/CD-Jenkins-yellow?style=for-the-badge"/>
+</p>
 
-- 🔭 Building scalable **QA Automation Frameworks**
-- 🌱 Currently learning **Jenkins & CI/CD Automation**
-- 🧪 Specialized in:
-  - API Automation Testing
-  - Selenium Web Automation
-  - Test Framework Design
-  - REST Assured
-  - Java-based Automation Solutions
-- 💬 Ask me about:
-  - Java
-  - Selenium
-  - REST Assured
-  - API Testing
-  - Automation Architecture
+---
+
+# 🚀 About Me
+
+- 🔭 Building scalable and maintainable QA Automation Frameworks
+- 🌱 Currently learning Jenkins & CI/CD Automation
+- 🧪 Specialized in API Automation Testing & Selenium Automation
+- 💬 Ask me about Java, REST Assured, Selenium, TestNG, Framework Design
 - 👨‍💻 Portfolio:
   - https://amiteshvsth.github.io/Portfolio-Javascript-2.0/
 - 📫 Reach me at:
@@ -39,119 +37,110 @@ QA Automation Engineer | API Testing | Selenium | Java | Test Framework Developm
 
 ---
 
-## 🌐 Connect With Me
+# 🌐 Connect With Me
 
-<p align="left">
-  <a href="https://twitter.com/amiteshrawall" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="twitter" height="30" width="40" />
-  </a>
+<table>
+<tr>
+<td>
+<a href="https://twitter.com/amiteshrawall" target="_blank">
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" width="40"/>
+</a>
+</td>
 
-  <a href="https://linkedin.com/in/amitesh-vashishth" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="30" width="40" />
-  </a>
+<td>
+<a href="https://linkedin.com/in/amitesh-vashishth" target="_blank">
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="40"/>
+</a>
+</td>
 
-  <a href="https://stackoverflow.com/users/amitesh-vashishth" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="stackoverflow" height="30" width="40" />
-  </a>
+<td>
+<a href="https://stackoverflow.com/users/amitesh-vashishth" target="_blank">
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" width="40"/>
+</a>
+</td>
 
-  <a href="https://www.hackerrank.com/amiteshvashishth" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="hackerrank" height="30" width="40" />
-  </a>
+<td>
+<a href="https://www.hackerrank.com/amiteshvashishth" target="_blank">
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" width="40"/>
+</a>
+</td>
 
-  <a href="https://codeforces.com/profile/amiteshvashishth" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="codeforces" height="30" width="40" />
-  </a>
+<td>
+<a href="https://codeforces.com/profile/amiteshvashishth" target="_blank">
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" width="40"/>
+</a>
+</td>
 
-  <a href="https://www.leetcode.com/amiteshvashishth" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="leetcode" height="30" width="40" />
-  </a>
+<td>
+<a href="https://www.leetcode.com/amiteshvashishth" target="_blank">
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="40"/>
+</a>
+</td>
 
-  <a href="https://discord.gg/hindustani_banna" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="discord" height="30" width="40" />
-  </a>
-</p>
-
----
-
-## 🛠️ Languages & Tools
-
-<p align="left">
-
-  <a href="https://www.java.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="45" height="45"/>
-  </a>
-
-  <a href="https://www.selenium.dev/" target="_blank">
-    <img src="https://raw.githubusercontent.com/detain/svg-logos/master/svg/selenium-logo.svg" alt="selenium" width="45" height="45"/>
-  </a>
-
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="45" height="45"/>
-  </a>
-
-  <a href="https://www.linux.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="45" height="45"/>
-  </a>
-
-  <a href="https://azure.microsoft.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="45" height="45"/>
-  </a>
-
-  <a href="https://www.mysql.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="45" height="45"/>
-  </a>
-
-  <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="sqlserver" width="45" height="45"/>
-  </a>
-
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="45" height="45"/>
-  </a>
-
-  <a href="https://www.cprogramming.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="45" height="45"/>
-  </a>
-
-  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="45" height="45"/>
-  </a>
-
-</p>
+<td>
+<a href="https://discord.gg/hindustani_banna" target="_blank">
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" width="40"/>
+</a>
+</td>
+</tr>
+</table>
 
 ---
 
-## 📌 Featured QA Skills
+# 🛠️ Languages & Tools
+
+<table>
+<tr>
+<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="45"/></td>
+
+<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/selenium/selenium-original.svg" width="45"/></td>
+
+<td><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="45"/></td>
+
+<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="45"/></td>
+
+<td><img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" width="45"/></td>
+
+<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="45"/></td>
+
+<td><img src="https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg" width="45"/></td>
+
+<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="45"/></td>
+
+<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="45"/></td>
+
+<td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="45"/></td>
+</tr>
+</table>
+
+---
+
+# 📌 QA Automation Expertise
 
 ✅ API Automation Testing  
 ✅ REST Assured  
 ✅ Selenium WebDriver  
-✅ TestNG  
+✅ TestNG Framework  
 ✅ Framework Design  
 ✅ Data-Driven Testing  
 ✅ CI/CD Integration  
-✅ Git & Version Control  
 ✅ SQL Validation  
+✅ Git & Version Control  
 ✅ Cross-Browser Testing  
 
 ---
 
-## 📈 GitHub Stats
+# 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amiteshvsth&show_icons=true&theme=tokyonight" alt="github stats" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amiteshvsth&theme=tokyonight" alt="streak stats" />
-</p>
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=amiteshvsth&show_icons=true&theme=tokyonight" />
+<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=amiteshvsth&theme=tokyonight" />
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amiteshvsth&layout=compact&theme=tokyonight" alt="top languages" />
-</p>
+</div>
 
 ---
 
-## ⚡ Fun Fact
+# ⚡ Fun Fact
 
-> I enjoy designing clean automation frameworks as much as breaking unstable APIs.
+> I enjoy designing stable automation frameworks as much as breaking unstable APIs.
