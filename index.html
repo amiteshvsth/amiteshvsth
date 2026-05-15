@@ -8,169 +8,160 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;600;800&display=swap');
-        body { font-family: 'Inter', sans-serif; background-color: #020617; }
+        body { font-family: 'Inter', sans-serif; background-color: #0b1120; scroll-behavior: smooth; }
         .mono { font-family: 'JetBrains Mono', monospace; }
-        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
-        .gradient-text { background: linear-gradient(90deg, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .bento-card { transition: all 0.3s ease; }
-        .bento-card:hover { transform: translateY(-5px); border-color: #60a5fa; box-shadow: 0 0 20px rgba(96, 165, 250, 0.2); }
+        .glass { background: rgba(30, 41, 59, 0.4); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .gradient-text { background: linear-gradient(90deg, #60a5fa, #34d399); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .skill-badge { background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.2); color: #93c5fd; }
     </style>
 </head>
-<body class="text-slate-200 leading-relaxed">
+<body class="text-slate-300">
 
-    <nav class="fixed top-0 w-full z-50 glass py-4 px-8 flex justify-between items-center">
-        <div class="mono font-bold text-blue-400">./amitesh_vashishth</div>
-        <div class="hidden md:flex gap-8 text-sm font-medium">
-            <a href="#experience" class="hover:text-blue-400 transition">Experience</a>
+    <nav class="fixed top-0 w-full z-50 glass py-4 px-10 flex justify-between items-center">
+        <div class="mono font-bold text-blue-400">AV.init()</div>
+        <div class="hidden md:flex gap-8 text-xs font-bold uppercase tracking-widest">
+            <a href="#about" class="hover:text-blue-400 transition">Summary</a>
             <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
-            <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+            <a href="#frameworks" class="hover:text-blue-400 transition">Frameworks</a>
+            <a href="#experience" class="hover:text-blue-400 transition">Experience</a>
         </div>
     </nav>
 
-    <header class="pt-32 pb-20 px-6 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
-        <div class="flex-1">
-            <span class="mono text-blue-400 text-sm font-bold bg-blue-400/10 px-3 py-1 rounded-full">Available for SDET Roles</span>
-            <h1 class="text-6xl md:text-8xl font-extrabold mt-6 mb-4 leading-tight">Crafting <span class="gradient-text">Bulletproof</span> Code.</h1>
-            <p class="text-slate-400 text-lg md:text-xl max-w-lg mb-8">
-                Senior QA Automation Engineer with 2+ years of experience[cite: 9]. I build high-efficiency UI & API test frameworks that slash manual effort by 40%.
-            </p>
-            <div class="flex gap-4">
-                <a href="mailto:amiteshvashishth@gmail.com" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold flex items-center gap-2 transition">
-                    Get in Touch <i class="fa-solid fa-arrow-right text-sm"></i>
-                </a>
-            </div>
-        </div>
-        
-        <div class="flex-1 w-full max-w-lg">
-            <div class="glass rounded-xl overflow-hidden shadow-2xl">
-                <div class="bg-slate-800 px-4 py-2 flex gap-2">
-                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
-                </div>
-                <div class="p-6 mono text-sm leading-6">
-                    <p><span class="text-green-400">➜</span> <span class="text-blue-400">~</span> whoami</p>
-                    <p class="text-slate-300">Amitesh Vashishth</p>
-                    <p class="mt-2"><span class="text-green-400">➜</span> <span class="text-blue-400">~</span> location</p>
-                    <p class="text-slate-300">Ahmedabad, India [cite: 7]</p>
-                    <p class="mt-2"><span class="text-green-400">➜</span> <span class="text-blue-400">~</span> stack</p>
-                    <p class="text-slate-300">Selenium, C#, Java, REST Assured, Playwright [cite: 10, 14, 15, 39]</p>
-                    <p class="mt-2"><span class="text-green-400">➜</span> <span class="text-blue-400">~</span> role</p>
-                    <p class="text-yellow-400">Senior QA Automation Engineer @ Jignect [cite: 34]</p>
-                    <p class="mt-2 text-slate-500 italic">// Initializing framework...</p>
-                </div>
-            </div>
+    <header id="about" class="pt-40 pb-20 px-6 max-w-6xl mx-auto text-center">
+        <h1 class="text-6xl md:text-8xl font-black text-white mb-6">Amitesh <span class="gradient-text">Vashishth</span></h1>
+        <p class="mono text-blue-400 mb-8">Senior QA Automation Engineer | 2+ Years Experience [cite: 9]</p>
+        <div class="max-w-3xl mx-auto glass p-8 rounded-2xl text-lg leading-relaxed">
+            Skilled in Selenium, C#, Java, and REST Assured, with hands-on experience building reusable automation utilities and improving test efficiency through CI/CD integration[cite: 10]. Proven track record of reducing manual re-execution effort by 40%[cite: 36].
         </div>
     </header>
 
-    <section id="experience" class="py-20 px-6 max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold mb-12 flex items-center gap-4">
-            <span class="text-blue-500 mono text-xl">01.</span> Professional Impact
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="md:col-span-2 glass p-8 rounded-3xl bento-card">
-                <div class="flex justify-between items-start mb-6">
-                    <div>
-                        <h3 class="text-2xl font-bold">QA Automation Engineer</h3>
-                        <p class="text-blue-400 mono text-sm">Jignect Technologies Pvt. Ltd | 07/2024-Present [cite: 34, 54]</p>
+    <section id="skills" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-12 border-l-4 border-blue-500 pl-4">Technical Arsenal [cite: 11]</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div class="glass p-6 rounded-xl">
+                <h3 class="text-blue-400 font-bold mb-4 uppercase text-xs tracking-tighter">Languages & Web [cite: 13, 14, 15]</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-badge px-2 py-1 rounded text-xs">Java</span>
+                    <span class="skill-badge px-2 py-1 rounded text-xs">C#</span>
+                    <span class="skill-badge px-2 py-1 rounded text-xs">JavaScript</span>
+                    <span class="skill-badge px-2 py-1 rounded text-xs">TypeScript</span>
+                </div>
+            </div>
+            <div class="glass p-6 rounded-xl">
+                <h3 class="text-blue-400 font-bold mb-4 uppercase text-xs">Automation Tools [cite: 14, 15, 39]</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-badge px-2 py-1 rounded text-xs">Selenium WebDriver</span>
+                    <span class="skill-badge px-2 py-1 rounded text-xs">Playwright</span>
+                    <span class="skill-badge px-2 py-1 rounded text-xs">REST Assured</span>
+                    <span class="skill-badge px-2 py-1 rounded text-xs">Postman</span>
+                </div>
+            </div>
+            <div class="glass p-6 rounded-xl">
+                <h3 class="text-blue-400 font-bold mb-4 uppercase text-xs">DevOps & CI/CD [cite: 22, 24, 25, 26]</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-badge px-2 py-1 rounded text-xs">Azure DevOps</span>
+                    <span class="skill-badge px-2 py-1 rounded text-xs">GitLab CI/CD</span>
+                    <span class="skill-badge px-2 py-1 rounded text-xs">GitHub Actions</span>
+                    <span class="skill-badge px-2 py-1 rounded text-xs">Docker</span>
+                </div>
+            </div>
+            <div class="glass p-6 rounded-xl">
+                <h3 class="text-blue-400 font-bold mb-4 uppercase text-xs">Design Patterns [cite: 30, 31, 33]</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-badge px-2 py-1 rounded text-xs">POM</span>
+                    <span class="skill-badge px-2 py-1 rounded text-xs">Data-Driven</span>
+                    <span class="skill-badge px-2 py-1 rounded text-xs">DTO/POJO</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="frameworks" class="py-20 bg-slate-900/50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-12 border-l-4 border-green-500 pl-4">Architecture & Projects [cite: 69]</h2>
+            <div class="space-y-8">
+                <div class="glass p-8 rounded-3xl relative overflow-hidden group">
+                    <div class="absolute right-0 top-0 p-8 opacity-10 group-hover:opacity-20 transition text-8xl"><i class="fa-solid fa-gears"></i></div>
+                    <div class="flex flex-col md:flex-row justify-between items-start gap-6">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold text-white mb-2">Petstore API Automation Framework [cite: 70]</h3>
+                            <p class="text-slate-400 mb-6">Designed a reusable API framework using Java, REST Assured, and TestNG. Features Jackson serialization for DTO-based requests[cite: 71, 72].</p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 text-sm mono text-blue-300">
+                                <div>• Retry listeners & Soft assertions [cite: 73]</div>
+                                <div>• DataFactory for test data [cite: 74]</div>
+                                <div>• Allure & Extent Reporting [cite: 73]</div>
+                                <div>• Azure DevOps Integration [cite: 75]</div>
+                            </div>
+                            <a href="https://github.com/amiteshvsth" target="_blank" class="inline-flex items-center gap-2 text-white font-bold bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition">
+                                <i class="fa-brands fa-github"></i> View Repository 
+                            </a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="glass p-8 rounded-3xl relative overflow-hidden group">
+                    <div class="absolute right-0 top-0 p-8 opacity-10 group-hover:opacity-20 transition text-8xl"><i class="fa-solid fa-vial-circle-check"></i></div>
+                    <h3 class="text-2xl font-bold text-white mb-2">Automation Exercise (Hybrid UI & API) [cite: 77]</h3>
+                    <p class="text-slate-400 mb-6">Scalable framework for E2E testing using Selenium and REST Assured[cite: 78]. Focused on high stability and parallel execution[cite: 80].</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 text-sm mono text-green-300">
+                        <div>• Parallel Chrome/Firefox execution [cite: 80]</div>
+                        <div>• GitLab & GitHub Actions [cite: 82]</div>
+                        <div>• Docker-based execution [cite: 83]</div>
+                        <div>• Headless CI stability [cite: 83]</div>
+                    </div>
+                    <a href="https://github.com/amiteshvsth" target="_blank" class="inline-flex items-center gap-2 text-white font-bold bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition">
+                        <i class="fa-brands fa-github"></i> View Repository 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-12 border-l-4 border-blue-500 pl-4">Professional Experience [cite: 20]</h2>
+        <div class="space-y-12">
+            <div class="relative pl-8 border-l border-slate-700">
+                <div class="absolute w-4 h-4 bg-blue-500 rounded-full -left-2 top-1 shadow-[0_0_10px_#3b82f6]"></div>
+                <h3 class="text-xl font-bold text-white">QA Automation Engineer</h3>
+                <p class="text-blue-400 mono text-sm mb-4">Jignect Technologies Pvt. Ltd | 07/2024 - Present [cite: 34, 54]</p>
                 <ul class="space-y-3 text-slate-400">
-                    <li>• Developed Azure DevOps retry utility, cutting manual effort by 40%.</li>
-                    <li>• Optimized CI/CD feedback loops to under 15 minutes[cite: 65].</li>
-                    <li>• Designed C#/.NET frameworks for Agility Insights data pipelines[cite: 63].</li>
+                    <li>• Developed Azure DevOps retry utility reducing manual re-execution effort by 40%[cite: 36].</li>
+                    <li>• Boosted AI response reliability by 20% through LLM benchmarking[cite: 56, 61].</li>
+                    <li>• Integrated regression suites into pipelines, shortening feedback loops to 15 mins[cite: 65].</li>
+                    <li>• Automated verification of Agile delivery metrics for Agility Insights.</li>
                 </ul>
             </div>
-            
-            <div class="bg-gradient-to-br from-blue-600 to-indigo-700 p-8 rounded-3xl bento-card text-white flex flex-col justify-between">
-                <h3 class="font-bold text-lg mb-4 italic">Efficiency Gains</h3>
-                <div>
-                    <div class="text-5xl font-extrabold mb-2">35%</div>
-                    <p class="text-blue-100 text-sm">Reduction in script maintenance via modular locator strategies[cite: 68].</p>
-                </div>
-                <div class="mt-6">
-                    <div class="text-5xl font-extrabold mb-2">20%</div>
-                    <p class="text-blue-100 text-sm">Boost in AI response reliability[cite: 56, 61].</p>
-                </div>
-            </div>
-
-            <div class="glass p-8 rounded-3xl bento-card">
-                <h3 class="text-xl font-bold">RPA Developer</h3>
-                <p class="text-blue-400 mono text-sm mb-4">Adani (ABEX) [cite: 49]</p>
-                <p class="text-slate-400 text-sm italic">Reduced runtime by 70% and increased throughput by optimizing legacy HR bots[cite: 51].</p>
-            </div>
-
-            <div id="skills" class="md:col-span-2 glass p-8 rounded-3xl bento-card grid grid-cols-2 gap-8">
-                <div>
-                    <h4 class="mono text-blue-400 text-xs font-bold uppercase mb-4 tracking-widest">Automation</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-slate-700/50 px-3 py-1 rounded-md text-xs">Selenium</span>
-                        <span class="bg-slate-700/50 px-3 py-1 rounded-md text-xs">Playwright</span>
-                        <span class="bg-slate-700/50 px-3 py-1 rounded-md text-xs">REST Assured</span>
-                        <span class="bg-slate-700/50 px-3 py-1 rounded-md text-xs">Appium</span>
-                    </div>
-                </div>
-                <div>
-                    <h4 class="mono text-blue-400 text-xs font-bold uppercase mb-4 tracking-widest">DevOps</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-slate-700/50 px-3 py-1 rounded-md text-xs">Azure DevOps</span>
-                        <span class="bg-slate-700/50 px-3 py-1 rounded-md text-xs">GitLab CI</span>
-                        <span class="bg-slate-700/50 px-3 py-1 rounded-md text-xs">Docker</span>
-                    </div>
-                </div>
+            <div class="relative pl-8 border-l border-slate-700">
+                <div class="absolute w-4 h-4 bg-slate-500 rounded-full -left-2 top-1"></div>
+                <h3 class="text-xl font-bold text-white">RPA Developer</h3>
+                <p class="text-blue-400 mono text-sm mb-4">Adani Business Excellence (ABEX) | 01/2024 - 06/2024 [cite: 49, 55]</p>
+                <ul class="space-y-3 text-slate-400">
+                    <li>• Consolidated HR tasks into unified bots, reducing execution time by 40%[cite: 50].</li>
+                    <li>• Optimized legacy bots, increasing throughput and reducing runtime by 70%[cite: 51].</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold mb-12">
-            <span class="text-blue-500 mono text-xl">02.</span> Projects & Open Source
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="glass p-1 rounded-3xl hover:bg-gradient-to-br from-blue-500 to-indigo-600 transition duration-500">
-                <div class="bg-slate-900 p-8 rounded-[22px]">
-                    <div class="flex justify-between items-center mb-6">
-                        <i class="fa-solid fa-code text-3xl text-blue-400"></i>
-                        <a href="https://github.com/amiteshvsth" class="text-slate-400 hover:text-white transition"><i class="fa-brands fa-github text-2xl"></i></a>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Petstore API Framework</h3>
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                        API automation using Java, REST Assured, and TestNG[cite: 71]. Implemented DTO-based request/response handling with Jackson serialization[cite: 72].
-                    </p>
-                    <div class="flex gap-3">
-                        <span class="mono text-[10px] bg-slate-800 text-blue-300 px-2 py-1 rounded border border-blue-400/20">JAVA</span>
-                        <span class="mono text-[10px] bg-slate-800 text-blue-300 px-2 py-1 rounded border border-blue-400/20">REST-ASSURED</span>
-                    </div>
-                </div>
+    <footer class="py-20 bg-slate-950 border-t border-slate-800 px-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-white font-bold mb-6 uppercase text-sm">Education [cite: 84]</h3>
+                <p class="text-slate-400 font-bold">Master of Computer Applications </p>
+                <p class="text-slate-500 text-sm">L.D College of Engineering, Ahmedabad [cite: 85, 87]</p>
+                <p class="text-slate-400 font-bold mt-4">Bachelor of Computer Applications [cite: 86]</p>
+                <p class="text-slate-500 text-sm">Mohanlal Sukhadia University, Udaipur </p>
             </div>
-
-            <div class="glass p-1 rounded-3xl hover:bg-gradient-to-br from-purple-500 to-pink-600 transition duration-500">
-                <div class="bg-slate-900 p-8 rounded-[22px]">
-                    <div class="flex justify-between items-center mb-6">
-                        <i class="fa-solid fa-robot text-3xl text-purple-400"></i>
-                        <a href="https://github.com/amiteshvsth" class="text-slate-400 hover:text-white transition"><i class="fa-brands fa-github text-2xl"></i></a>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">UI & API Automation Exercise</h3>
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
-                        Scalable framework for UI testing using Selenium and Extent Reports[cite: 78, 81]. Features cross-browser headless execution and GitLab CI/CD integration[cite: 80, 82].
-                    </p>
-                    <div class="flex gap-3">
-                        <span class="mono text-[10px] bg-slate-800 text-purple-300 px-2 py-1 rounded border border-purple-400/20">SELENIUM</span>
-                        <span class="mono text-[10px] bg-slate-800 text-purple-300 px-2 py-1 rounded border border-purple-400/20">GITLAB-CI</span>
-                    </div>
+            <div class="text-right flex flex-col justify-center">
+                <h3 class="text-white font-bold mb-4">Let's Connect</h3>
+                <div class="flex justify-end gap-6 text-2xl mb-6">
+                    <a href="https://linkedin.com/in/amitesh-vashishth" class="hover:text-blue-400 transition"><i class="fa-brands fa-linkedin"></i> [cite: 4]</a>
+                    <a href="https://github.com/amiteshvsth" class="hover:text-blue-400 transition"><i class="fa-brands fa-github"></i> </a>
+                    <a href="mailto:amiteshvashishth@gmail.com" class="hover:text-blue-400 transition"><i class="fa-solid fa-envelope"></i> [cite: 3]</a>
                 </div>
+                <p class="text-slate-600 text-xs mono">Phone: 9352473062 [cite: 6] | Ahmedabad, India [cite: 7]</p>
             </div>
         </div>
-    </section>
-
-    <footer class="py-20 text-center border-t border-slate-800/50">
-        <h2 class="text-3xl font-bold mb-6">Let's build something <span class="gradient-text">stable</span>.</h2>
-        <div class="flex justify-center gap-8 text-2xl text-slate-500">
-            <a href="https://linkedin.com/in/amitesh-vashishth" class="hover:text-blue-400 transition"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/amiteshvsth" class="hover:text-blue-400 transition"><i class="fa-brands fa-github"></i></a>
-            <a href="mailto:amiteshvashishth@gmail.com" class="hover:text-blue-400 transition"><i class="fa-solid fa-envelope"></i></a>
-        </div>
-        <p class="mt-8 text-slate-600 text-sm mono italic">&copy; 2026 amiteshvashishth.init()</p>
     </footer>
 
 </body>
