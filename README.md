@@ -31,7 +31,7 @@ QA Automation Engineer | API Testing | Selenium | REST Assured | Java
 - 🧪 Specialized in API Automation Testing & Selenium Automation
 - 💬 Ask me about Java, REST Assured, Selenium, TestNG, Framework Design
 - 👨‍💻 Portfolio:
-  - https://amiteshvsth.github.io/Portfolio-Javascript-2.0/
+  - [https://amiteshvsth.github.io/amiteshvsth/](https://amiteshvsth.github.io/amiteshvsth/)
 - 📫 Reach me at:
   - **amiteshvashishth@gmail.com**
 
